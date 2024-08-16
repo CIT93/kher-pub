@@ -1,2 +1,2 @@
 # kher-pub
-Kairi H Public Repo for CIT82
+Kairi Her public repo for CIT93
