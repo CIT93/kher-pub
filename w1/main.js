@@ -17,7 +17,7 @@ function runNow () {
         console.log('will 11 this one run?')
     } else {
         console.log('will 13 this one run?')
-}
+}}
 
 runNow();
 runNow();
