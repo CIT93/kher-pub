@@ -31,6 +31,11 @@ function determineHouseHoldPts(numberInHousehold) {
   } else if (numberInHousehold > 6) {
     houseHoldPoints = 2;
   }
+  // We would put it before becuase it would just reset its code past this console code
+  console.log(
+    'based on the number of members in the household ${numberInHousehold} the points would be ${houseHoldPoints}'
+  )
+
   return houseHoldPoints
 }
 
@@ -41,9 +46,31 @@ const total = houseHoldPTS + houseSizePoints;
 cfpData.push([houseHoldMembers, houseSize, houseHoldPTS, houseSizePoints, total]);
 }
 
+const myInputs = [5,"apt"] //on the global slope
+
+/// Arrays
+
+const myArr = [1, 2, 3, 4, 5];
+console.log(myArr[1])
+console.log(myArr[4])
+console.log(myArr[0] = 10)
+console.log(myArr.push [1])
+
+// How to do i modify the start parameter to use the arrat rhat is the argument?
+function modifyStart(arr) {
+  let start = arr[0];  // Use the first element of the array
+  console.log(start);  // Output the start value
+}
+
+let numbers = [5, 10, 15];
+modifyStart(numbers);
+
+
 function displayOutput() {
 
-}
+ }
+
+ // yesish
 
 for (arr of cfpData){
     console.log(arr)
@@ -80,3 +107,4 @@ start(0, "small");
 start(0, "apartment");
 
 displayOutput()
+
