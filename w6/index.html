@@ -1,21 +1,36 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week 6</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer src="main.js"></script>
-    <style>
-    html {
-        font-size: 22px;
-    }
-    body {
-        background-color: #333;
-        color: whitesmoke;
-    }
-    </style>
-</head>
-<body>
+    <title>Week 6 - Cardon Footprint - Pub</title>
+    <style></style>
+  </head>
+  <body>
+    <form id="form">
+      <fieldset>
+        <legend>Input Cardon Footprint</legend>
+        <div>
+          I <label for="">First Name: </label>
+          <input type="text" name="firstname" required />
+        </div>
+        <div>
+          <label for="">Last Name: </label>
+          <input type="text" name="lastname" required />
+        </div>
+        <div>
+          <label>How many people in your house?</label>
+          <input type="number" name="housem" required />
+        </div>
+        <div>
+          <label>What is the size of your house?</label>
+          <input type="text" name="houses" required />
+        </div>
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
     <div id="output"></div>
-</body>
+  </body>
 </html>
