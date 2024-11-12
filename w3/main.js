@@ -26,3 +26,24 @@ let cardonFootprintPoints = 0;
 
 determineHouseholdPoints(3);
 determineHouseholdPoints(4);
+
+// my try
+function determineSizeOfHome(sizeOfHome) {
+    console.log("inside the funct");
+    if (sizeOfHome === 10) {
+        carbonFootprintPoints = sizeOfHome + but;
+    } else if (sizeOfHome === 7) {
+        carbonFootprintPoints = sizeOfHome + 7;
+    } else if (sizeOfHome === 4) {
+        carbonFootprintPoints = sizeOfHome + 4;
+    } else if (sizeOfHome > 2) {
+        carbonFootprintPoints = sizeOfHome + 2;
+    }
+    console.log(`Based on the number of size of the household of ${sizeOfHome} the resul would be ${carbonFootprintPoints}.`);
+}
+let carbonFootprintPoints = 0;
+
+determineSizeOfHome(4);
+determineSizeOfHome(10);
+
+// I got the code to run but I wanted it to say Large,Medium,Small and Apartment but It kept saying 'not defined'. I couldn't quite figure it out on why it was doing that so I stopped. I got working code, but I didn't quite get the code I wanted.
